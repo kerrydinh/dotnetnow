@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetNow.Domain\DotNetNow.Domain.csproj" />
+    <ProjectReference Include="..\DotNetNow.Persistence\DotNetNow.Persistence.csproj" />
+    <ProjectReference Include="..\DotNetNow.Auth\DotNetNow.Auth.csproj" />
+    <ProjectReference Include="..\DotNetNow.Infrastructure\DotNetNow.Infrastructure.csproj" />
+    <ProjectReference Include="..\DotNetNow.Persistence\DotNetNow.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

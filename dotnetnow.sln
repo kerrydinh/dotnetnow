@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Tools", ".Tools", "{9C348026-9687-4F7F-9344-E2C44679DEB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNow.Application", "DotNetNow.Application\DotNetNow.Application.csproj", "{3125C7EA-0064-4447-B4FE-9D8A066544E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNow.Domain", "DotNetNow.Domain\DotNetNow.Domain.csproj", "{8AEF2D07-B566-44FC-AA53-43AAD60DADF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNow.Infrastructure", "DotNetNow.Infrastructure\DotNetNow.Infrastructure.csproj", "{3DB75599-1581-46A8-95B2-2A3678CFFDB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNow.API", "DotNetNow.API\DotNetNow.API.csproj", "{7FEED39A-B5BF-4D2B-90D4-B3DE8816226E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNow.Auth", "DotNetNow.Auth\DotNetNow.Auth.csproj", "{520F48FA-92BB-4282-B26B-348891B59D85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNow.Persistence", "DotNetNow.Persistence\DotNetNow.Persistence.csproj", "{6EE21021-9285-4749-B458-40B2AEC6350F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNow.Utility", "DotNetNow.Utility\DotNetNow.Utility.csproj", "{E961675E-FE22-46DB-A910-59CA89F80256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3125C7EA-0064-4447-B4FE-9D8A066544E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3125C7EA-0064-4447-B4FE-9D8A066544E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3125C7EA-0064-4447-B4FE-9D8A066544E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3125C7EA-0064-4447-B4FE-9D8A066544E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AEF2D07-B566-44FC-AA53-43AAD60DADF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AEF2D07-B566-44FC-AA53-43AAD60DADF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AEF2D07-B566-44FC-AA53-43AAD60DADF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AEF2D07-B566-44FC-AA53-43AAD60DADF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB75599-1581-46A8-95B2-2A3678CFFDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB75599-1581-46A8-95B2-2A3678CFFDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB75599-1581-46A8-95B2-2A3678CFFDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB75599-1581-46A8-95B2-2A3678CFFDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FEED39A-B5BF-4D2B-90D4-B3DE8816226E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEED39A-B5BF-4D2B-90D4-B3DE8816226E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEED39A-B5BF-4D2B-90D4-B3DE8816226E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEED39A-B5BF-4D2B-90D4-B3DE8816226E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520F48FA-92BB-4282-B26B-348891B59D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520F48FA-92BB-4282-B26B-348891B59D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520F48FA-92BB-4282-B26B-348891B59D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520F48FA-92BB-4282-B26B-348891B59D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE21021-9285-4749-B458-40B2AEC6350F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE21021-9285-4749-B458-40B2AEC6350F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE21021-9285-4749-B458-40B2AEC6350F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE21021-9285-4749-B458-40B2AEC6350F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E961675E-FE22-46DB-A910-59CA89F80256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E961675E-FE22-46DB-A910-59CA89F80256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E961675E-FE22-46DB-A910-59CA89F80256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E961675E-FE22-46DB-A910-59CA89F80256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CB71705-E558-4D35-A7F9-A57FB678F05D}
+	EndGlobalSection
+EndGlobal
